@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ducada Daynta</title>
+<meta name="description" content="Ducooyin lagu tawakalo Allaha marka daynta la joogo — Soomaali, Carabi iyo Ingiriisi.">
+<meta name="theme-color" content="#0a1410">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/favicon.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app" class="app">
+
+  <!-- ======================= HEADER ======================= -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12.5 2a10 10 0 1 0 8.9 14.5 8.5 8.5 0 0 1-9.6-13.9c.24-.17.1-.55-.2-.55A9.9 9.9 0 0 0 12.5 2Z"/></svg>
+      </span>
+      <span class="brand-name" data-i18n="title">Ducada Daynta</span>
+      <button id="installBtn" class="install-btn" hidden type="button">
+        <svg viewBox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M12 3v10.6l3.3-3.3 1.4 1.4L12 17l-4.7-4.7 1.4-1.4L12 13.6V3h0ZM5 19h14v2H5z"/></svg>
+        <span data-i18n="install">Ku rakib</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================= MAIN VIEWS ======================= -->
+  <main id="view" class="view"></main>
+
+  <!-- ======================= TAB BAR ======================= -->
+  <nav class="tabbar" role="tablist" aria-label="Main navigation">
+    <button class="tab-item" data-tab="home" role="tab" aria-selected="true">
+      <svg viewBox="0 0 24 24" width="21" height="21"><path fill="currentColor" d="M12 3 2 12h3v8h6v-6h2v6h6v-8h3L12 3Z"/></svg>
+      <span data-i18n="tab_home">Hoyga</span>
+    </button>
+    <button class="tab-item" data-tab="library" role="tab" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="21" height="21"><path fill="currentColor" d="M4 4h6.5c1 0 1.9.4 2.5 1.1V20a3.5 3.5 0 0 0-2.5-1H4V4Zm16 0v15h-6.5a3.5 3.5 0 0 0-2.5 1V5.1A3.4 3.4 0 0 1 13.5 4H20Z"/></svg>
+      <span data-i18n="tab_library">Ducada</span>
+    </button>
+    <button class="tab-item" data-tab="journal" role="tab" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="21" height="21"><path fill="currentColor" d="M5 3h11l3 3v15H5V3Zm10 1.5V8h3.5L15 4.5ZM7 12h10v1.6H7V12Zm0 4h10v1.6H7V16Zm0-8h6v1.6H7V8Z"/></svg>
+      <span data-i18n="tab_journal">Qorshaha</span>
+    </button>
+    <button class="tab-item" data-tab="settings" role="tab" aria-selected="false">
+      <svg viewBox="0 0 24 24" width="21" height="21"><path fill="currentColor" d="M12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm8.2 3.5c0-.6-.05-1.1-.14-1.65l1.8-1.4-1.8-3.1-2.1.8a7.3 7.3 0 0 0-2.85-1.65L14.7 2h-3.4l-.4 2.1a7.3 7.3 0 0 0-2.85 1.65l-2.1-.8-1.8 3.1 1.8 1.4c-.09.55-.14 1.05-.14 1.65s.05 1.1.14 1.65l-1.8 1.4 1.8 3.1 2.1-.8a7.3 7.3 0 0 0 2.85 1.65l.4 2.1h3.4l.4-2.1a7.3 7.3 0 0 0 2.85-1.65l2.1.8 1.8-3.1-1.8-1.4c.09-.55.14-1.05.14-1.65Z"/></svg>
+      <span data-i18n="tab_settings">Dejinta</span>
+    </button>
+  </nav>
+
+</div>
+
+<!-- toast -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
