@@ -83,33 +83,31 @@ function t(key, lang) {
 }
 
 const DUAS = [
-  {
-    id: 1,
-    arabic: "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
-    transliteration: "Allahumma-kfini bihalalika an haramika, wa aghnini bifadlika amman siwaka",
-    t: {
-      so: "Ilaahayow, igu filan xalaalkaaga xaraantaada meesheed, oo iga hodmi fadligaaga cid kaaga ah aan ku baahnayn.",
-      ar: "اللهم اكفني بحلالك عن حرامك، وأغنني بفضلك عمَّن سواك",
-      en: "O Allah, suffice me with what You have made lawful instead of what You have made unlawful, and enrich me by Your favor from dependence on anyone besides You."
-    },
-    source: "Sunan al-Tirmidhi 3563",
-    grade: "Hasan"
+ {
+  id: 1,
+  arabic: "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+  transliteration: "Allahumma-kfini bihalalika an haramika, wa aghnini bifadlika amman siwaka",
+  t: {
+    so: "Ilaahayow, igu fil waxa aad xalaashay oo iga fogee waxa aad xaaraantay, fadligaagana igaga hodmi cid kasta oo aan Adiga ahayn.",
+    ar: "اللهم اكفني بحلالك عن حرامك، وأغنني بفضلك عمَّن سواك",
+    en: "O Allah, suffice me with what You have made lawful instead of what You have made unlawful, and enrich me by Your favor from dependence on anyone besides You."
   },
-  {
-    id: 2,
-    arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
-    transliteration: "Allahumma inni audhu bika minal-hammi wal-hazan, wal-ajzi wal-kasal, wal-bukhli wal-jubn, wa dala-id-dayn, wa ghalabatir-rijal",
-    t: {
-      so: "Ilaahayow, waxaan kaaga magan galayaa murugada iyo walbahaarka, tabar-darrida iyo caajisnimada, bakhaylnimada iyo fulniinta, culeyska daynta, iyo in dadku igu adkaadaan.",
-      ar: "اللهم إني أعوذ بك من الهمِّ والحزن، والعجز والكسل، والبخل والجبن، وضلع الدين، وغلبة الرجال",
-      en: "O Allah, I seek refuge in You from worry and grief, helplessness and laziness, miserliness and cowardice, the burden of debt, and being overpowered by other men."
-    },
-    source: "Sahih al-Bukhari 6363",
-    grade: "Sahih"
+  source: "Sunan al-Tirmidhi 3563",
+  grade: "Hasan"
+},
+{
+  id: 2,
+  arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+  transliteration: "Allahumma inni audhu bika minal-hammi wal-hazan, wal-ajzi wal-kasal, wal-bukhli wal-jubn, wa dala-id-dayn, wa ghalabatir-rijal",
+  t: {
+    so: "Ilaahayow, waxaan kaaga magan galayaa murugada iyo walbahaarka, tabar-darrida iyo caajisnimada, bakhaylnimada iyo fulaynimada, culeyska daynta, iyo in dadku igu adkaadaan.",
+    ar: "اللهم إني أعوذ بك من الهمِّ والحزن، والعجز والكسل، والبخل والجبن، وضلع الدين، وغلبة الرجال",
+    en: "O Allah, I seek refuge in You from worry and grief, helplessness and laziness, miserliness and cowardice, the burden of debt, and being overpowered by other men."
   },
-  {
-  
-   {
+  source: "Sahih al-Bukhari 6363",
+  grade: "Sahih"
+},
+{
   id: 3,
   arabic: "اللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ وَالنَّوَى، وَمُنْزِلَ التَّوْرَاةِ وَالْإِنْجِيلِ وَالْفُرْقَانِ، اللَّهُمَّ أَنْتَ الْأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ، وَأَنْتَ الْآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ، وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ، وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ، اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
   transliteration: "Allahumma Rabba as-samawati as-sab'i wa Rabba al-'arshi al-'azim, Rabbana wa Rabba kulli shay'in, faliq al-habbi wa an-nawa, wa munzila at-tawrati wal-injili wal-furqan. Allahumma anta al-awwalu falaysa qablaka shay'un, wa anta al-akhiru falaysa ba'daka shay'un, wa anta az-zahiru falaysa fawqaka shay'un, wa anta al-batinu falaysa dunaka shay'un. Iqdi 'anna ad-dayna wa aghnina min al-faqr.",
@@ -121,7 +119,6 @@ const DUAS = [
   source: "Sahih Muslim 2713",
   grade: "Sahih"
 },
- 
 
 
 
