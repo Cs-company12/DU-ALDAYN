@@ -131,8 +131,20 @@ const DUAS = [
     source: "Sahih al-Bukhari 4563",
     grade: "Sahih"
   },
+   {
+  id: 5,
+  arabic: "اللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ وَالنَّوَى، وَمُنْزِلَ التَّوْرَاةِ وَالْإِنْجِيلِ وَالْفُرْقَانِ، اللَّهُمَّ أَنْتَ الْأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ، وَأَنْتَ الْآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ، وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ، وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ، اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
+  transliteration: "Allahumma Rabba as-samawati as-sab'i wa Rabba al-'arshi al-'azim, Rabbana wa Rabba kulli shay'in, faliq al-habbi wa an-nawa, wa munzila at-tawrati wal-injili wal-furqan. Allahumma anta al-awwalu falaysa qablaka shay'un, wa anta al-akhiru falaysa ba'daka shay'un, wa anta az-zahiru falaysa fawqaka shay'un, wa anta al-batinu falaysa dunaka shay'un. Iqdi 'anna ad-dayna wa aghnina min al-faqr.",
+  t: {
+    so: "Ilaahow, Eebaha toddobada samood iyo Eebaha Carshiga Weyn, Eebahayo iyo Eebaha wax kasta, Jeexa miraha iyo xudunta, Soo dejiyaha Tawraad, Injiil iyo Furqaan. Ilaahow Adigu waa Kan Hore, wax kaa horreeya ma jiraan, Adiguna waa Kan Dambe, wax kaa dambeeya ma jiraan. Adigu waa Kan Muuqda, wax kaa sarreeya ma jiraan, Adiguna waa Kan Qarsoon, wax kaa hooseeya ma jiraan. Nagaga bixi deynta, naga hodmi faqriga.",
+    ar: "اللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ وَالنَّوَى، وَمُنْزِلَ التَّوْرَاةِ وَالْإِنْجِيلِ وَالْفُرْقَانِ، اللَّهُمَّ أَنْتَ الْأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ، وَأَنْتَ الْآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ، وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ، وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ، اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
+    en: "O Allah, Lord of the seven heavens and Lord of the Mighty Throne, our Lord and Lord of everything, Splitter of the grain and the date-stone, Revealer of the Torah, the Gospel and the Criterion. O Allah, You are the First, so there is nothing before You; You are the Last, so there is nothing after You; You are the Most High, so there is nothing above You; You are the Hidden, so there is nothing beneath You. Settle our debt and enrich us so that we are free of poverty."
+  },
+  source: "Sahih Muslim 2713",
+  grade: "Sahih"
+},
   {
-    id: 5,
+    id: 6,
     arabic: "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
     transliteration: "La hawla wa la quwwata illa billah",
     t: {
